@@ -1,0 +1,46 @@
+[
+  {
+    "transaction_id": "TX-001",
+    "seller_country": "DE",
+    "buyer_country": "FR",
+    "buyer_vat_id": "FR12345678901",
+    "customer_type": "B2B",
+    "supply_type": "goods",
+    "invoice_date": "2026-09-30",
+    "currency": "EUR",
+    "net_amount": 1000,
+    "vat_amount": 0,
+    "gross_amount": 1000,
+    "description": "Intra-EU supply of goods",
+    "destination_country": "FR",
+    "expected_treatment": "intra-EU B2B supply; customer-accounted/reverse-charge treatment subject to conditions"
+  },
+  {
+    "transaction_id": "TX-002",
+    "seller_country": "DE",
+    "buyer_country": "DE",
+    "customer_type": "B2C",
+    "supply_type": "goods",
+    "invoice_date": "2026-09-29",
+    "currency": "EUR",
+    "net_amount": 500,
+    "vat_amount": 95,
+    "gross_amount": 595,
+    "description": "Domestic retail goods",
+    "destination_country": "DE"
+  },
+  {
+    "transaction_id": "TX-003",
+    "seller_country": "GB",
+    "buyer_country": "FR",
+    "customer_type": "B2C",
+    "supply_type": "goods",
+    "invoice_date": "2026-09-28",
+    "currency": "GBP",
+    "net_amount": 25000,
+    "vat_amount": 0,
+    "gross_amount": 25000,
+    "description": "UK export of goods to France",
+    "destination_country": "FR"
+  }
+]
